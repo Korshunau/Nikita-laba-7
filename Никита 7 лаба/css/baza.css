@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+body {
+     font-family: 'Muli', sans-serif;
+     font-size: 18px;
+     color: black;
+     font-family: sans-serif;
+     z-index: 0;
+     background: url(../img/background/backstage.jpg) ;
+     /* no-repeat */
+     background-attachment: fixed;     
+}
+.container {
+    max-width: 1200px;     
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: apacity  ;
+    padding: 30px;
+}
+/* #b3e1e3 */
+
+
+.header-name {
+    margin: 10px 0;
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    justify-content: center;
+}
+.search {
+    display: flex;
+    justify-content: center;
+}
+.search_in {
+    width: 500px;
+    height: 40px;
+    border: #f1f1f1;
+    border-radius: 30px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+.name-logo {
+    margin-top: 17px ;
+}
+.phone {
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+}
+.btn-header {
+    display: flex;
+}
+.back-color {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 40px;
+    border-radius: 40px;
+    margin: 20px;
+    
+}
+.product-img {
+    width: 314px;
+    height: 314px;
+}
+
+
+/* footer__content */
+
+.footer__content {
+    background-color: white;
+    height: 30em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.footer__item {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 3px 0;
+    transition: 0.3s;
+}
+
+.footer__item_only {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer__list  {
+    padding: 20px;
+    border: 1px solid rgb(179, 179, 184);
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 20px;
+}
+.footer__item:hover {
+    color: blue;
+}
+.footer__item_only:hover {
+    color: black;
+}
+.footer__content {
+    display: flex;
+    height: 700px;
+}
+
+
+/* btn */
+
+.btn-text {
+    padding: 10px;
+    background: white;
+    border: 1px solid blue;
+    border-radius: 40px;
+    width: 200px;
+}
+.btn {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-card-text {
+    padding: 10px;
+    color: red;
+}
+.direction-card-img {
+    border: 1px solid blue;
+    width: fit-content;
+    display: flex;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.direction-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

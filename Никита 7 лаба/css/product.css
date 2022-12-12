@@ -1,0 +1,67 @@
+.direction {
+    padding: 40px 0;
+}
+.caption {
+    text-align: center;
+    text-transform: uppercase;
+    /* margin-bottom: 10px; */
+    margin: .5em 0;
+    padding: 1.5em 0;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 100px ;
+}
+
+.direction-row {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.direction-card  {
+    flex: 1 1 0;
+    display: flex;
+    margin-left: 0em;
+    flex-direction: column;
+}
+
+.direction-card {
+    text-align: center;
+    margin-top: 3em;
+    min-width: 300px;
+}
+
+
+
+/* Prodact HTML */
+
+body {
+    background-color: #f1f1f1;
+}
+p.oplata {
+    padding: 2em 5px 0 5px;
+    font-size: 20px;
+    color: #7a6b6b;
+    font-style: italic;
+    font-family: 'Poppins' , sans-serif ;
+}
+span.value {
+    font-size: 30px;
+}
+.direction-card {
+    text-align: center;
+    margin-top: 3em;
+    min-width: 300px;
+}
+
+.direction-price {
+    background-color: white ;
+    border-radius: 20px;
+    margin: 20px;
+}
+.product-img-mini {
+    width: 200px;
+}
+.direction-row {
+    padding-bottom: 100px;
+}
